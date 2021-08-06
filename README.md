@@ -8,5 +8,5 @@ My JS game of BOUNCING BALLS
             <b>RIGHT</b><br>"w" = To move <b>TOP</b> <br>"s" = To move <b>DOWN</b> <br>
             
 
-#### [CLICK HERE to view the game](https://bouncing-balls-sayahnneeta.netlify.app/)
+#### [CLICK HERE to try the game](https://bouncing-balls-sayahnneeta.netlify.app/)
  
