@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bouncing Balls</title>
+</head>
+<style>
+    .bg {
+        position: absolute;
+        top: -7%;
+        left: 35%;
+        padding: 0;
+        margin: 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    body {
+        background-color: black;
+        z-index: 1;
+        
+    }
+
+    .start-button,
+    .start-button:hover,
+    .start-button:active,
+    .start-buttons:focus {
+        position: absolute;
+        right: 43%;
+        top: 60%;
+        font-size: large;
+        font-weight: bold;
+        height: 35px;
+        width: 150px;
+        display: inline-block;
+        padding: 8px;
+        border-radius: 15px;
+        background-color: chartreuse;
+        border: none;
+        cursor: pointer;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .btn-text {
+        text-decoration: none;
+        color: black;
+       
+    }
+
+    .heading {
+        position: absolute;
+        text-align: center;
+        right: 42%;
+        top: 70%;
+    }
+
+    .text 
+    {
+        height: fit-content;
+        text-align: center;
+        padding: 20px;
+        margin: 30px;
+        right: 1%;
+        top: 70%;
+       
+    }
+</style>
+
+<body>
+    <div class="start">
+        <img class="bg" src="bg-3.gif" alt="no-image" srcset="">
+        <button class="start-button"> <a class="btn-text" href="game.html">START GAME</a></button>
+    </div>
+    <div class="instructions">
+        <p class="heading"> <b>Welcome to Bouncing Balls!</b></p>
+        <br>
+        <p class="text"> JERRY'S ball jar has broken loose and all the coloured balls are out in the open.JERRY is having a
+            hard time finding his balls in his anti gravity house.Your task is to capture
+            all the balls for JERRY.Use these keyboard shortcuts to move around <br> "a" = To move <b>LEFT</b><br>"d"
+            = To move
+            <b>RIGHT</b><br>"w" = To move <b>TOP</b> <br>"s" = To move <b>DOWN</b>
+        </p>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
